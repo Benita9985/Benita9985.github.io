@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UNIT 3 - HRM (BSM)</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Web Page</h1>
-        <nav>
-            <a href="#intro">Introduction</a>
-            <a href="#topics">Key Topics</a>
-            <a href="#resources">Resources</a>
-        </nav>
-    </header>
+  <header>
+    <h1>UNIT 3 - HUMAN RESOURCE MANAGEMENT (HRM)</h1>
+  </header>
 
-    <section id="intro">
-        <h2>Introduction</h2>
-        <p>This is my first webpage. I'm learning HTML and CSS!</p>
+  <main>
+    <section>
+      <h2 onclick="toggleSection(this)">3.1 Introduction to HRM</h2>
+      <p>
+        Human Resource Management (HRM) is the process of managing people in organizations in a structured and thorough manner...
+      </p>
     </section>
 
-    <section id="topics">
-        <h2>Key Topics</h2>
-        <ul>
-            <li>Web Design</li>
-            <li>HTML Basics</li>
-            <li>CSS Styling</li>
-        </ul>
+    <section>
+      <h2 onclick="toggleSection(this)">3.2 Nature, Importance & Scope</h2>
+      <ul>
+        <li><strong>Nature:</strong> HRM is both an art and a science. It involves managing people effectively to improve productivity.</li>
+        <li><strong>Importance:</strong> Helps in recruitment, training, performance appraisals, etc.</li>
+        <li><strong>Scope:</strong> Includes manpower planning, job analysis, compensation, industrial relations, etc.</li>
+      </ul>
     </section>
 
-    <section id="resources">
-        <h2>Resources</h2>
-        <p>More content coming soon!</p>
+    <section>
+      <h2 onclick="toggleSection(this)">3.3 Functions of HRM</h2>
+      <ol>
+        <li>Procurement Function</li>
+        <li>Development Function</li>
+        <li>Compensation Function</li>
+        <li>Integration Function</li>
+        <li>Maintenance Function</li>
+      </ol>
     </section>
+  </main>
 
-    <footer>
-        <p>© 2025 My Name</p>
-    </footer>
+  <footer>
+    <p>Created by [Your Name] | © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
